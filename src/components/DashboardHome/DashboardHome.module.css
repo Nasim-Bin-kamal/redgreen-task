@@ -1,0 +1,40 @@
+/* .dashboardTitle {
+    color: #E94560;
+} */
+
+
+.dashboardSidebar {
+    background-color: #f1f2f7bf;
+    height: 100%;
+    position: sticky;
+    top:0%;
+}
+.menu,.others{
+    padding: 25px 10px 0px 10px ;
+    font-size: 14px;
+    color:#181818;
+    font-weight: 400;
+}
+.dashNav a {
+    width: 85%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 12px;
+    color:#1B2128;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.icons{
+    color:#9DACBE;
+}
+
+.dashNav a:hover {
+    color: #2D5BFF;
+    background-color: #002dd11a;
+    
+}
+.dashNav a:hover>.icons{
+    color: #2D5BFF;
+}
