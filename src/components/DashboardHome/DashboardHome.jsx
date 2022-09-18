@@ -1,12 +1,14 @@
 import React from 'react';
-import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import { Alert, Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import styles from './DashboardHome.module.css';
-import { FaMapMarkedAlt, FaComment, FaListUl, FaUserPlus, FaSignOutAlt, FaPlusCircle, FaServicestack, FaUser } from "react-icons/fa";
+import { FaMapMarkedAlt, FaUser } from "react-icons/fa";
 import { MdInsertChart } from "react-icons/md";
 import { CgMenuBoxed } from "react-icons/cg";
 import { AiFillMessage, AiFillSetting } from "react-icons/ai";
-import { TiUser } from "react-icons/ti";
 import { BsFillInfoSquareFill } from "react-icons/bs";
+import rainyIcon from '../../images/Rainy.png';
+import PopularProduct from '../PopularProduct/PopularProduct';
+
 
 
 
@@ -18,7 +20,7 @@ const DashboardHome = () => {
                 <Tab.Container id="left-tabs-example" defaultActiveKey="my-order">
                     <Row xs={1} sm={1} md={2} lg={2} xl={2} >
                         <Col xs={12} sm={12} md={3} lg={2} xl={2}>
-                            <div className={`${styles.dashboardSidebar}`} style={{ minHeight: '100vh', position: 'sticky', top: '114px' }}>
+                            <div className={`${styles.dashboardSidebar}`} >
                                 <p className={styles.menu}>MENU</p>
                                 <Nav variant="light" className={`flex-column ${styles.dashNav}`}>
 
@@ -38,10 +40,37 @@ const DashboardHome = () => {
                         </Col>
 
                         <Col xs={12} sm={12} md={9} lg={10} xl={10}>
-                            <div className="bg-light rounded-3 py-4 border" >
-
+                            <div className="pt-4 px-2" >
+                                <h6 className={`pb-2 ${styles.dashboardTitle}`}>Redgreen Sales</h6>
+                                <div>
+                                    <Alert className={` d-flex flex-row justify-content-start gap-3 ${styles.notificationAlert}`} dismissible>
+                                        <div>
+                                            <img className='img-fluid' src={rainyIcon} alt="" />
+                                        </div>
+                                        <div className=''>
+                                            <h6 className={styles.notification}>Notification</h6>
+                                            <p className={styles.notificationMsg}>You dont have enough stock for the next campaign.</p>
+                                        </div>
+                                    </Alert>
+                                </div>
 
                             </div>
+                            <Row>
+                                <Col xs={12} md={8} lg={8}>
+                                    <p>total sales</p>
+                                </Col>
+                                <Col xs={12} md={4} lg={4}>
+                                    <p>sales chart</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col xs={12} md={12} lg={6}>
+                                    <PopularProduct />
+                                </Col>
+                                <Col xs={12} md={12} lg={6}>
+
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </Tab.Container>
