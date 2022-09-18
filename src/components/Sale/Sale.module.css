@@ -1,0 +1,41 @@
+.title{
+    color: #181818;
+}
+.threeDot{
+    color:#9DACBE;
+}
+.sale{
+    color:#5C5C5C;
+    font-weight: 400;
+}
+.productTitle{
+    color:#5C5C5C;
+    margin: 0%;
+}
+.content,.salesAmount{
+    color:#181818;
+    font-weight: 500;
+}
+.state{
+    margin: 0%;
+    font-size: 14px;
+    color:#747474;
+    line-height: 20px;
+}
+
+.btnDetails{
+    font-size: 14px;
+    color:#2D5BFF;
+    line-height: 20px;
+    margin: 0%;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btnShowMore{
+    margin: 10px 10px 0px ;
+    font-size: 14px;
+    color: #2D5BFF;
+    font-weight: 500;
+    cursor: pointer;
+}

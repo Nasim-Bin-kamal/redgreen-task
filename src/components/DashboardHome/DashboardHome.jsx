@@ -8,6 +8,8 @@ import { AiFillMessage, AiFillSetting } from "react-icons/ai";
 import { BsFillInfoSquareFill } from "react-icons/bs";
 import rainyIcon from '../../images/Rainy.png';
 import PopularProduct from '../PopularProduct/PopularProduct';
+import Sale from '../Sale/Sale';
+
 
 
 
@@ -68,7 +70,7 @@ const DashboardHome = () => {
                                     <PopularProduct />
                                 </Col>
                                 <Col xs={12} md={12} lg={6}>
-
+                                    <Sale />
                                 </Col>
                             </Row>
                         </Col>

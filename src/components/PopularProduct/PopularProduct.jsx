@@ -73,7 +73,7 @@ const PopularProduct = () => {
             <Card className='p-3 border-opacity-75 shadow-sm rounded-3'>
                 <div className='pb-2 d-flex justify-content-between align-items-center'>
                     <h4 className={styles.title}>Most Popular Product</h4>
-                    <BsThreeDotsVertical className={styles.threeDot} />
+                    <BsThreeDotsVertical className={`fs-5 ${styles.threeDot}`} />
                 </div>
                 {
                     products?.map((product, p_id) => (
