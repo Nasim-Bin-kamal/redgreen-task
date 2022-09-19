@@ -23,6 +23,7 @@ const SalesChart = () => {
                     </Form>
                 </div>
                 <PieChart />
+                <p>see more</p>
             </Card>
 
         </div>

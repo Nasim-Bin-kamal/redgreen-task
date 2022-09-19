@@ -11,6 +11,7 @@ import PopularProduct from '../PopularProduct/PopularProduct';
 import Sale from '../Sale/Sale';
 import TotalSales from '../TotalSales/TotalSales';
 import SalesChart from '../SalesChart/SalesChart';
+import Weather from '../Weather/Weather';
 
 
 
@@ -73,6 +74,7 @@ const DashboardHome = () => {
                                 </Col>
                                 <Col xs={12} md={12} lg={6}>
                                     <Sale />
+                                    <Weather />
                                 </Col>
                             </Row>
                         </Col>
