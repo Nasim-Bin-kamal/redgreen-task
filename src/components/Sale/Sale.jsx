@@ -38,7 +38,7 @@ const Sale = () => {
                         <h3 className={`${styles.salesAmount}`}>918</h3>
                     </div>
                     <Form >
-                        <input className='p-1 rounded-2' type="month" name="" id="" />
+                        <input className={`p-1 rounded-2 ${styles.monthInput}`} type="month" name="" id="" />
                     </Form>
                 </div>
                 {

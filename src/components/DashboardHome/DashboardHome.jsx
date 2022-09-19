@@ -9,6 +9,8 @@ import { BsFillInfoSquareFill } from "react-icons/bs";
 import rainyIcon from '../../images/Rainy.png';
 import PopularProduct from '../PopularProduct/PopularProduct';
 import Sale from '../Sale/Sale';
+import TotalSales from '../TotalSales/TotalSales';
+import SalesChart from '../SalesChart/SalesChart';
 
 
 
@@ -22,7 +24,7 @@ const DashboardHome = () => {
                 <Tab.Container id="left-tabs-example" defaultActiveKey="my-order">
                     <Row xs={1} sm={1} md={2} lg={2} xl={2} >
                         <Col xs={12} sm={12} md={3} lg={2} xl={2}>
-                            <div className={`${styles.dashboardSidebar}`} >
+                            <div className={styles.dashboardSidebar}>
                                 <p className={styles.menu}>MENU</p>
                                 <Nav variant="light" className={`flex-column ${styles.dashNav}`}>
 
@@ -57,15 +59,15 @@ const DashboardHome = () => {
                                 </div>
 
                             </div>
-                            <Row>
+                            <Row className='px-2'>
                                 <Col xs={12} md={8} lg={8}>
-                                    <p>total sales</p>
+                                    <TotalSales />
                                 </Col>
                                 <Col xs={12} md={4} lg={4}>
-                                    <p>sales chart</p>
+                                    <SalesChart />
                                 </Col>
                             </Row>
-                            <Row>
+                            <Row className='px-2'>
                                 <Col xs={12} md={12} lg={6}>
                                     <PopularProduct />
                                 </Col>

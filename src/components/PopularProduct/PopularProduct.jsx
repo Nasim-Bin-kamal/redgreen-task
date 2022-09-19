@@ -55,7 +55,7 @@ const products = [
     {
         title: 'JP',
         name: 'ERP Software',
-        state: '-5%',
+        state: '5%',
         quantity: '870'
     },
     {

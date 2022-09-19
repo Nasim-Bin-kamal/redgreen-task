@@ -1,0 +1,20 @@
+/* .salesSection{
+    max-height: 366px;
+} */
+.title{
+    color: #181818;
+}
+.threeDot{
+    color:#9DACBE;
+    cursor: pointer;
+}
+.salesAmount{
+    color:#181818;
+    font-weight: 500;
+}
+.monthInput{
+    border:2px solid #E3E8EF;
+    color:#181818;
+    font-weight: 400;
+    font-size: 14px;
+}

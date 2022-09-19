@@ -3,6 +3,7 @@
 }
 .threeDot{
     color:#9DACBE;
+    cursor: pointer;
 }
 .sale{
     color:#5C5C5C;
@@ -15,6 +16,12 @@
 .content,.salesAmount{
     color:#181818;
     font-weight: 500;
+}
+.monthInput{
+    border:2px solid #E3E8EF;
+    color:#181818;
+    font-weight: 400;
+    font-size: 14px;
 }
 .state{
     margin: 0%;
