@@ -7,10 +7,18 @@
 }
 .currentTime,.date{
     color:#181818;
+    font-weight: 500;
 }
 .weatherDesc{
     font-size: 18px;
 }
 .hourlyWeather{
     color: #5C5C5C;
+}
+.arrow{
+    color:rgba(157, 172, 190, 0.5);
+    cursor: pointer;
+}
+.arrow:hover{
+    color:rgba(157, 172, 190);
 }

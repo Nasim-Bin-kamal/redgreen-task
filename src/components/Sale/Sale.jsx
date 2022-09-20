@@ -43,7 +43,7 @@ const Sale = () => {
                 </div>
                 {
                     products?.map((product, p_id) => (
-                        <div className='p-2 d-flex justify-content-between align-items-center border-bottom' key={p_id}>
+                        <div className='p-2 d-md-flex justify-content-between align-items-center border-bottom' key={p_id}>
                             <div className='d-flex justify-content-start align-items-center gap-2'>
                                 <Card className='p-1 rounded-3'>
                                     <img className='img-fluid' src={salesIcon} alt="" />
