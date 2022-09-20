@@ -35,8 +35,9 @@ const DashboardHome = () => {
                                     <Nav.Link className='ms-3' to="menu"><span className="me-2"><AiFillMessage /></span>Menu</Nav.Link>
 
                                 </Nav>
+                                <p className={styles.others}>OTHERS</p>
                                 <Nav variant="light" className={`flex-column ${styles.dashNav}`}>
-                                    <p className={styles.others}>OTHERS</p>
+
                                     <Nav.Link className='ms-3' to="settings"><span className="me-2"><AiFillSetting /></span>Settings</Nav.Link>
                                     <Nav.Link className='ms-3' to="accounts"><span className="me-2"><FaUser /></span>Accounts</Nav.Link>
                                     <Nav.Link className='ms-3' to="helps"><span className="me-2"><BsFillInfoSquareFill /></span>Helps</Nav.Link>

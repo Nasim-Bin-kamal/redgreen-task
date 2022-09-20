@@ -23,7 +23,7 @@ const SalesChart = () => {
                     </Form>
                 </div>
                 <PieChart />
-                <p>see more</p>
+                <p className={styles.btnDetails}>See Details</p>
             </Card>
 
         </div>

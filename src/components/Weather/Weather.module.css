@@ -5,3 +5,12 @@
     color:#9DACBE;
     cursor: pointer;
 }
+.currentTime,.date{
+    color:#181818;
+}
+.weatherDesc{
+    font-size: 18px;
+}
+.hourlyWeather{
+    color: #5C5C5C;
+}

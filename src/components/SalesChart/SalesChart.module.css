@@ -19,3 +19,12 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+.btnDetails{
+    margin: 10px 10px 0px ;
+    font-size: 14px;
+    color: #2D5BFF;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: end;
+}
