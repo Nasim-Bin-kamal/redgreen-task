@@ -20,7 +20,7 @@ import Weather from '../Weather/Weather';
 const DashboardHome = () => {
 
     return (
-        <div>
+        <div className='mx-auto'>
             <Container fluid className="mx-auto">
                 <Tab.Container >
                     <Row xs={1} sm={1} md={2} lg={2} xl={2} >
@@ -61,7 +61,7 @@ const DashboardHome = () => {
                                 </div>
 
                             </div>
-                            <Row className='px-2'>
+                            <Row className=''>
                                 <Col xs={12} md={12} lg={8}>
                                     <TotalSales />
                                 </Col>

@@ -46,7 +46,7 @@ const Weather = () => {
                         <Col xs={12} md={12} lg={5}>
                             <div className='py-2 d-flex flex-column justify-content-center align-items-center'>
                                 <h3 className={styles.currentTime}>{currentTime}</h3>
-                                <img className='img-fluid w-75' src={`https://openweathermap.org/img/wn/${current?.weather[0].icon}@2x.png`} alt="" />
+                                <img className='img-fluid my-3' src={`https://openweathermap.org/img/wn/${current?.weather[0].icon}@2x.png`} alt="" />
                                 <h5 className={styles.weatherDesc}>{current?.weather[0]?.description}, {parseInt(current?.temp - 273.15)}°C</h5>
                             </div>
 
@@ -67,36 +67,6 @@ const Weather = () => {
                                             </li>
                                         ))
                                     }
-                                    {/* <li className={styles.hourlyWeather}>
-                                        <div className='d-flex justify-content-between'>
-                                            <p>{new Date(hourlyTemp[0]?.dt * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</p>
-                                            <p>{hourlyTemp[0]?.weather[0]?.description}, {parseInt(hourlyTemp[0]?.temp - 273.15)}°C</p>
-                                        </div>
-                                    </li>
-                                    <li className={styles.hourlyWeather}>
-                                        <div className='d-flex justify-content-between'>
-                                            <p>1:00 AM</p>
-                                            <p>{hourlyTemp[1]?.weather[0]?.description}, {parseInt(hourlyTemp[1]?.temp - 273.15)}°C</p>
-                                        </div>
-                                    </li>
-                                    <li className={styles.hourlyWeather}>
-                                        <div className='d-flex justify-content-between'>
-                                            <p>04:00 AM</p>
-                                            <p>{hourlyTemp[2]?.weather[0]?.description}, {parseInt(hourlyTemp[2]?.temp - 273.15)}°C</p>
-                                        </div>
-                                    </li>
-                                    <li className={styles.hourlyWeather}>
-                                        <div className='d-flex justify-content-between'>
-                                            <p>05:00 AM</p>
-                                            <p>{hourlyTemp[3]?.weather[0]?.description}, {parseInt(hourlyTemp[3]?.temp - 273.15)}°C</p>
-                                        </div>
-                                    </li>
-                                    <li className={styles.hourlyWeather}>
-                                        <div className={`d-flex justify-content-between `}>
-                                            <p>08:00 AM</p>
-                                            <p>{hourlyTemp[4]?.weather[0]?.description}, {parseInt(hourlyTemp[4]?.temp - 273.15)}°C</p>
-                                        </div>
-                                    </li> */}
 
                                 </ul>
                             </div>
