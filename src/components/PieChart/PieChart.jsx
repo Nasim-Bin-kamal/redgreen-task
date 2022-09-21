@@ -23,7 +23,10 @@ const PieChart = () => {
         data,
         angleField: 'value',
         colorField: 'type',
-        radius: 0.8,
+        color: ['#2D5BFF', '#6284FD', '#96ADFF'],
+        height: 180,
+        width: 290,
+        radius: 0.9,
         innerRadius: 0.7,
         label: {
             type: 'inner',
@@ -59,7 +62,7 @@ const PieChart = () => {
 
     return (
         <div className='mx-auto'>
-            <Pie {...config} style={{ height: '200px', width: '290px' }} />
+            <Pie {...config} />
         </div>
     );
 };

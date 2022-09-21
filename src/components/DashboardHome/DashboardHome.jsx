@@ -22,7 +22,7 @@ const DashboardHome = () => {
     return (
         <div>
             <Container fluid className="mx-auto">
-                <Tab.Container id="left-tabs-example" defaultActiveKey="my-order">
+                <Tab.Container >
                     <Row xs={1} sm={1} md={2} lg={2} xl={2} >
                         <Col xs={12} sm={12} md={3} lg={2} xl={2} className={styles.sidebarSection}>
                             <div className={styles.dashboardSidebar}>
@@ -62,10 +62,10 @@ const DashboardHome = () => {
 
                             </div>
                             <Row className='px-2'>
-                                <Col xs={12} md={8} lg={8}>
+                                <Col xs={12} md={12} lg={8}>
                                     <TotalSales />
                                 </Col>
-                                <Col xs={12} md={4} lg={4}>
+                                <Col xs={12} md={12} lg={4}>
                                     <SalesChart />
                                 </Col>
                             </Row>

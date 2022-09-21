@@ -19,6 +19,12 @@
     color:#747474;
     line-height: 20px;
 }
+.negativeState{
+    margin: 0%;
+    font-size: 14px;
+    color:#DF2121;
+    line-height: 20px;
+}
 
 .quantity{
     font-size: 14px;
