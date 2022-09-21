@@ -61,7 +61,7 @@ const DashboardHome = () => {
                                 </div>
 
                             </div>
-                            <Row className=''>
+                            <Row className='px-2'>
                                 <Col xs={12} md={12} lg={8}>
                                     <TotalSales />
                                 </Col>
